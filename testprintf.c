@@ -6,6 +6,7 @@
 int main()
 {
 	FILE *fp;
+	printf("---------------\n");
 	fp=fopen("./fprintf.txt","a+");
 	if(fp=NULL)
 	{

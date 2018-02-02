@@ -6,6 +6,8 @@ int main()
 	int i,j;
 	char *str=malloc(128);
 	strcpy(str,"hello dji");
-	printf("the strcpy data = %s\n",str);
+	printf("the data strcpy data = %s\n",str);
+	printf("the ---------===----------\n");
+	printf("-++_+++++\n");
 	free(str);
 }
